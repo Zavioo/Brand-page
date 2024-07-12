@@ -1,0 +1,308 @@
+* {
+    margin: 0px 0px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+
+#brand-name {
+    margin-left: 190px;
+    
+}
+
+#brand-name:hover {
+    color: #7dbbb0;
+
+}
+
+.nav-list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+#nav-contact {
+    margin-right: 90px;
+}
+
+.nav-a {
+    
+    text-decoration: none;
+}
+
+.nav-a:hover {
+    color: #7dbbb0;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/VINIS.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#center-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.center-list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+
+}
+
+.center-list-items:hover {
+    color: #7dbbb0;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.grid-containar{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:200px 200px 200px ;
+    justify-content: center;
+    gap: 10px;
+    width: 920px;
+    /* background-color: #7dbbb0; */
+    height: 610px;
+}
+
+.grid-items{
+}
+
+.grid-items1{
+    width:300px;
+    height: 410px;
+    grid-row-start:1 ;
+    grid-row-end: 1;
+    grid-column-start:1 ;
+    grid-column-end: 1;
+
+}
+
+.grid-items>img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-items5{
+    width: 300px;
+    height: 200px;
+    grid-row: 1/2;
+    grid-column: 2/2;
+}
+
+.grid-items3{
+    width: 300px;
+    height: 400px;
+    grid-row: 2/2;
+    grid-column: 2/2;
+}
+
+.grid-items6{
+    width: 300px;
+    height: 190px;
+    grid-row: 3/3;
+    grid-column: 1/1;
+}
+
+.grid-items4{
+    width: 300px;
+    height: 190px;
+    grid-row: 3/3;
+    grid-column: 3/3;
+}
+
+.grid-items2{
+    width: 300px;
+    height: 410px;
+}
+
+.center-area{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.areas{width: 200px;
+height: 100px;
+}
+
+
+.areas>h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.areas>i{
+    font-size: 30px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.areas>h4:hover{
+    color: #7dbbb0;
+}
+
+.areas>i:hover{
+   color: #7dbbb0;
+}
+
+.iframs{
+    width: 100%;
+    height: 300px;
+   
+}
+ video{
+    max-width: 100%;
+ }
+
+ .our-team>h3{
+      text-align: center;
+      margin-top:30px ;
+ }
+ 
+#p-div{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#p-div>p{
+    display: inline-block;
+    width: 40%;
+    font-weight: 200;
+    text-align: center;}
+
+.m-box{
+    display: flex;
+    justify-content: center;
+}
+.members{
+    width: 300px;
+    height: 600px;
+    margin: 0px 20px;
+}
+
+.members>img{
+    width: 100%;
+    height:450px;
+    border-radius: 10px;
+}
+
+.members>h4,h6{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.members>h6{
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+#qanda>h2{
+    margin-left:150px;
+    margin-bottom: 10px;
+    
+}
+
+#qanda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.bt{
+    width: 50%;
+    border-color: white;
+    margin-left:80px ;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    align-items: center;
+}
+.bt>button{
+    width: 55%;
+    height: 50px;
+    background-color: black;
+    border-color: white;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.bt>button>a{
+    text-decoration: none;
+}
+
+.bt>button>a:hover{
+    color: #7dbbb0;
+}
+
+.img{
+    width: 50%;
+}
+
+.img>img{
+    width: 50%;
+    margin-right: 200px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.div1{
+    width: 200px;
+    height: 150px;
+    
+}
+
+#hr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+hr{display: inline-block;
+    width: 80%;
+}
